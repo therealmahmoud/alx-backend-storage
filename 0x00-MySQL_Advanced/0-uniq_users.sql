@@ -1,4 +1,4 @@
 -- Creating table in holberton db
 CREATE TABLE IF NOT EXISTS users(id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
                                 email VARCHAR(255) NOT NULL UNIQUE,
-                                NAME VARCHAR(255));
+                                name VARCHAR(255));
