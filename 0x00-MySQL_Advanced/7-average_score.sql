@@ -1,7 +1,7 @@
 -- SQL script that creates a stored procedure
 DROP PROCEDURE IF EXISTS ComputeAverageScoreForUser;
-CREATE PROCEDURE ComputeAverageScoreForUser(user_id INT)
 DELIMITER $$
+CREATE PROCEDURE ComputeAverageScoreForUser (user_id INT)
 BEGIN
     DECLARE total_score INT DEFAULT 0;
     DECLARE projects_count INT DEFAULT 0;
